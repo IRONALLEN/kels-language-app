@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#logocontainer{
+    position: relative;
+   
+width: 375px;
+height: 812px;
+background-color: brown;
+border: 1px solid black;
+z-index: 2;
+display: flex;
+justify-content: center;
+}
+.logo{
+    z-index: 1;
+    position: relative;
+    top: 160px;
+    left: -35px;
+    width: 230px
+    
+}
+h3{
+    position: relative;
+    top: 170px;
+    left: -15px;
+   display: flex;
+   align-items: center;
+   z-index: 1;
+}

@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    position: relative;
+    left: 50px;
+    top: 100px;
+    font-size: 35px;
+    color: black;
+}
+#search{
+    position: relative;
+    top: 120px;
+    left: 70px;
+    width: 250px;
+}
+#language{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    width: 290px;
+    height: 400px;
+}
+.button{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border: 1px solid black;
+    width: 70px;
+    height: 30px;
+    text-decoration: underline;
+}
+
+#login input{
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 60px;
+    height: 25px;
+}

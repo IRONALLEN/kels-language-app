@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(imgs/background.png);
+    width: 375px;
+    height: 650px;
+   
+    
+}
+
+h1{
+    position: relative;
+    left: 100px;
+    top: 100px;
+    font-size: 55px;
+    color: white;
+}
+.button{
+    position: relative;
+    top: 10px;
+    left: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    width: 70px;
+    height: 30px;
+    text-decoration: underline;
+}
+.email input, label{
+    position: relative;
+    top: 170px;
+    left: 80px;
+    width: 230px;
+    height: 40px;
+    display: block;
+    color: black;
+    font-size: 18px;
+}
+.email label{
+    font-size: 20px;
+    color: white;
+
+}
+.password input,label{
+    margin: 10px;
+    position: relative;
+    top: 180px;
+    color: white;
+}
+.password label{
+    font-size: 20px;
+    color: white;
+}
+p{
+    position: relative;
+    top: 180px;
+    left: 90px;
+    text-decoration: underline;
+    color: red;
+}
+#login input{
+    position: relative;
+    top: 300px;
+}
